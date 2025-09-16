@@ -1,0 +1,128 @@
+{
+  "_resourceType": "sprite",
+  "id": "af90051e-b173-4630-8e2a-bcc90092193d",
+  "name": "SAMPLE PACK - Pixel Gnome Fishing Pack/A - Salt Water/Pufferfish",
+  "symbol": "sprite_sample_pack_pixel_gn_20",
+  "numFrames": 1,
+  "filename": "SAMPLE PACK - Pixel Gnome Fishing Pack/A - Salt Water/Pufferfish.png",
+  "checksum": "854f8cdcbd9792ae1804d899e88317ac24ab0836",
+  "width": 16,
+  "height": 16,
+  "states": [
+    {
+      "id": "f77251ce-28a2-45b1-b015-9b0a96f5f0e1",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "1cfa467b-b7c7-49d4-bd46-742178f2edc2",
+          "frames": [
+            {
+              "id": "ff701d68-4d5b-4e97-aede-711434e45d31",
+              "tiles": [
+                {
+                  "id": "08d4fb2e-3e36-4af6-aa07-0d96fe2218b8",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "74da6b3d-4072-4a02-b9b8-806f7fbf3e9f",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2c74c17f-58bd-4065-b781-9142a50052e4",
+          "frames": [
+            {
+              "id": "2163a9be-3125-4aff-991c-f5339a3c8928",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a6bf2318-a761-48f1-b1b9-7f5cf440ace1",
+          "frames": [
+            {
+              "id": "20bab192-e9ea-41d6-869a-59075dadc2e4",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "efc0e2a3-bc87-44f9-a27c-86702d96fb58",
+          "frames": [
+            {
+              "id": "6f9d50ac-c0db-478c-9a1b-f32ddce02c04",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "2a265b47-de91-4a06-a50c-99d282becf5d",
+          "frames": [
+            {
+              "id": "7cb03d8e-9e19-41c1-a01b-bd518d2034ec",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "280b78c3-8959-4996-a9ae-bea6c1b68c0c",
+          "frames": [
+            {
+              "id": "7b935e24-5bf8-4cb6-a52d-87e89890fb2b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "489ccf91-56e8-4c9d-bdb1-98d088226ed4",
+          "frames": [
+            {
+              "id": "68b41323-3ebf-48f5-9679-b467ae30817b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ca0f0c81-e87f-411f-b307-a8684d1e66e3",
+          "frames": [
+            {
+              "id": "b56b1b63-d13e-4a22-b3f8-6e2ba88af0e6",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15
+}

@@ -1,0 +1,128 @@
+{
+  "_resourceType": "sprite",
+  "id": "156a1542-aed1-47a6-a348-6490ff4d10bb",
+  "name": "SAMPLE PACK - Pixel Gnome Fishing Pack/A - Salt Water/Anchovy",
+  "symbol": "sprite_sample_pack_pixel_gn_17",
+  "numFrames": 1,
+  "filename": "SAMPLE PACK - Pixel Gnome Fishing Pack/A - Salt Water/Anchovy.png",
+  "checksum": "e28e33c1d35c56b5e45df5423bcbd1c964444df5",
+  "width": 16,
+  "height": 16,
+  "states": [
+    {
+      "id": "9c89851d-dcd1-4d71-b59f-b78868a0d69e",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "74740cd1-3e61-4026-a2f3-16312d0f8284",
+          "frames": [
+            {
+              "id": "063b2470-8c76-4981-a1e4-080256b58208",
+              "tiles": [
+                {
+                  "id": "b4aa8a0d-a3da-47b0-93de-556287f8d270",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "25fb60d6-c8f1-4ab2-8332-d8afda82e9af",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2597cdae-2107-49f1-80bf-b8afe261c7dd",
+          "frames": [
+            {
+              "id": "f71cd8fc-3726-4f42-9bfa-1a4dea9bce36",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "453bb8f2-cbb2-4e41-8c39-149d57b1c9b3",
+          "frames": [
+            {
+              "id": "7d5eac53-2919-4297-ac1b-852e3e1683b4",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5e1f6bac-bd3e-4c76-bbb5-d5d2b689bdc7",
+          "frames": [
+            {
+              "id": "242274b1-c345-4903-b7a6-b4f8a9cab0a2",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8cef4a3a-3546-4b5d-a62a-561edf68c1e7",
+          "frames": [
+            {
+              "id": "99e90986-bfb8-4976-9c1c-ba2d5e1b1e2d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "39e40297-ab2e-40c4-8797-463ff096b1a6",
+          "frames": [
+            {
+              "id": "1e27cc13-08f0-4962-999a-ec0a09b02cc4",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5331e4de-8101-40cf-a142-899c5ea169d7",
+          "frames": [
+            {
+              "id": "04b9294a-6d47-4632-8cdd-efa3b1e5bbb3",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ea1652ae-b7c2-4071-80e7-048dcb182ae3",
+          "frames": [
+            {
+              "id": "c1315457-6606-497c-8374-b40dce74e56d",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15
+}

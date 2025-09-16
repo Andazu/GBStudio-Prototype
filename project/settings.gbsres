@@ -1,11 +1,11 @@
 {
   "_resourceType": "settings",
-  "startSceneId": "",
+  "startSceneId": "c875394b-8e2f-4c94-8dd2-10df10069edf",
   "startX": 9,
-  "startY": 9,
+  "startY": 15,
   "startMoveSpeed": 1,
   "startAnimSpeed": 15,
-  "startDirection": "down",
+  "startDirection": "left",
   "showCollisionExtraTiles": false,
   "sgbEnabled": false,
   "customHead": "",
@@ -81,7 +81,7 @@
   "customControlsSelect": [
     "Shift"
   ],
-  "colorMode": "mono",
+  "colorMode": "mixed",
   "generateDebugFilesEnabled": false,
   "compilerPreset": 3000,
   "scriptEventPresets": {},

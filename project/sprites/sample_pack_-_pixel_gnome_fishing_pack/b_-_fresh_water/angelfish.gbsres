@@ -1,0 +1,128 @@
+{
+  "_resourceType": "sprite",
+  "id": "5ad9296c-68a0-48b2-8294-faba963bec91",
+  "name": "SAMPLE PACK - Pixel Gnome Fishing Pack/B - Fresh Water/Angelfish",
+  "symbol": "sprite_sample_pack_pixel_gn_23",
+  "numFrames": 1,
+  "filename": "SAMPLE PACK - Pixel Gnome Fishing Pack/B - Fresh Water/Angelfish.png",
+  "checksum": "a4ede70fcff0a08f004a3d6755f80a3da071b58f",
+  "width": 16,
+  "height": 16,
+  "states": [
+    {
+      "id": "2b60ae48-8ee4-425c-9b36-ceef69a5a089",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "d4b84aed-8d2f-4cdc-8128-bd03bfb7f0bd",
+          "frames": [
+            {
+              "id": "75db5c0f-8cf5-41f4-90f8-b24b62cb1db1",
+              "tiles": [
+                {
+                  "id": "a1bc5964-43b9-4a12-8b5a-ace30dbf9cad",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "885239a6-129f-43c1-882c-06f005528c49",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "367dd07e-b378-49d4-af68-a67c475e3a39",
+          "frames": [
+            {
+              "id": "7fa3230e-ff05-4d0d-a227-2cfe8b74469c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3c3198e6-8b22-4592-9c4d-96afee9cfed6",
+          "frames": [
+            {
+              "id": "ae7f4d05-d175-4059-9054-96749b28dcab",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "25532d3b-a58c-4810-9f56-9be6c0e64418",
+          "frames": [
+            {
+              "id": "09d40af8-9278-4d40-b3ae-724010fba30e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6094ce85-d98e-48f9-9454-e582449d9790",
+          "frames": [
+            {
+              "id": "1130a901-9b35-4ac9-b10f-623efa6f568c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "36234273-20d1-407f-ac39-3d36d1699117",
+          "frames": [
+            {
+              "id": "e49d4b0d-c73a-40bc-b5ba-c6733c4840c5",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f0790f95-fcc1-4948-9dee-9267b125a2d3",
+          "frames": [
+            {
+              "id": "cdad9375-3358-4273-b398-bc66ceedfaf8",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a5046388-dcc8-42e4-8056-52c16ccf1d28",
+          "frames": [
+            {
+              "id": "fa6d564f-9056-4095-b517-98bbdbcda428",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15
+}

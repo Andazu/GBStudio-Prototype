@@ -1,0 +1,128 @@
+{
+  "_resourceType": "sprite",
+  "id": "05e4e0ae-a3f9-491a-95e2-2fca7e304570",
+  "name": "SAMPLE PACK - Pixel Gnome Fishing Pack/A - Salt Water/Crab - Dungeness",
+  "symbol": "sprite_sample_pack_pixel_gn_18",
+  "numFrames": 1,
+  "filename": "SAMPLE PACK - Pixel Gnome Fishing Pack/A - Salt Water/Crab - Dungeness.png",
+  "checksum": "15cc4dc3059ce62e4976c04a0ae305ca8b039fc9",
+  "width": 16,
+  "height": 16,
+  "states": [
+    {
+      "id": "6f22d5fb-2832-477c-9abf-ade1d807270a",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "44e47d26-baba-4d18-9277-94ad7fd96235",
+          "frames": [
+            {
+              "id": "1798fb86-9ef9-44de-bd4c-70468b370056",
+              "tiles": [
+                {
+                  "id": "4d21a4d2-279d-46ff-9222-7f682d4d6fd3",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "dbd15987-ecc3-49cd-933e-780ffef72d24",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "aecb559f-9487-4f34-8a53-699949092eef",
+          "frames": [
+            {
+              "id": "8691596b-2a0f-424b-a2b1-16125c9840ff",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1cc429a1-dc55-40a3-bf73-8bfe79879b60",
+          "frames": [
+            {
+              "id": "e09aebc1-2d14-4b5e-8c20-2d5f46c1dff8",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c47d6bab-c515-423d-a638-9a57cb234980",
+          "frames": [
+            {
+              "id": "a53107da-8a88-4214-87fc-89ce71b7ba97",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "11881604-97d4-4986-8ec5-ced2eabd359a",
+          "frames": [
+            {
+              "id": "64081b99-0517-46ef-b976-9a7e0c3aae0b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6498bd1a-1014-4a34-868e-b1b5abe6dd1a",
+          "frames": [
+            {
+              "id": "f78b70a5-cd04-4289-9356-c2f3e4f74f89",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "dc4021af-8a75-4fbd-8fe0-72b2049450aa",
+          "frames": [
+            {
+              "id": "5f9bd4b7-891f-427f-9265-ba5b4c951cdf",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5fc33775-b98b-4016-8427-fa5e264cf266",
+          "frames": [
+            {
+              "id": "b0afbcc0-3fb4-408b-8e96-f7b665eecdb3",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15
+}

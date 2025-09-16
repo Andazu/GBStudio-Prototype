@@ -1,4 +1,50 @@
 {
   "_resourceType": "variables",
-  "variables": []
+  "variables": [
+    {
+      "id": "0",
+      "name": "score",
+      "symbol": "var_score_0"
+    },
+    {
+      "id": "1",
+      "name": "E1_alive",
+      "symbol": "var_e1_alive"
+    },
+    {
+      "id": "2",
+      "name": "spwanCooldown",
+      "symbol": "var_spwancooldown"
+    },
+    {
+      "id": "3",
+      "name": "targetIdx",
+      "symbol": "var_targetidx"
+    },
+    {
+      "id": "4",
+      "name": "E1_mask",
+      "symbol": "var_e1_mask"
+    },
+    {
+      "id": "5",
+      "name": "E1_len",
+      "symbol": "var_e1_len"
+    },
+    {
+      "id": "6",
+      "name": "E1_prog",
+      "symbol": "var_e1_prog"
+    },
+    {
+      "id": "7",
+      "name": "E1_dir",
+      "symbol": "var_e1_dir"
+    },
+    {
+      "id": "8",
+      "name": "E2_prog",
+      "symbol": "var_e2_prog"
+    }
+  ]
 }

@@ -1,0 +1,101 @@
+{
+  "_resourceType": "sprite",
+  "id": "cc4f0cf5-dfbc-4366-ad6d-5ef7f1b6c550",
+  "name": "SAMPLE PACK - Pixel Gnome Fishing Pack/A - Salt Water/Pufferfish Outline",
+  "symbol": "sprite_sample_pack_pixel_gn_6",
+  "numFrames": 1.125,
+  "filename": "SAMPLE PACK - Pixel Gnome Fishing Pack/A - Salt Water/Pufferfish Outline.png",
+  "checksum": "9f0453d82f04c2891ab8776c908207ade354f0d7",
+  "width": 18,
+  "height": 18,
+  "states": [
+    {
+      "id": "081286b7-cfa5-426f-ad95-5cb95a0f38f4",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "d8c71cd1-28a6-46ca-adf3-0f232bdb2980",
+          "frames": [
+            {
+              "id": "d3b7011e-59ea-4acf-a3bd-2d2733b33fae",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d9b096d8-6544-4fe3-a2f4-1247264c29eb",
+          "frames": [
+            {
+              "id": "cee5360f-2ef1-4e58-8667-6b3a7669d838",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "32c8efc2-667b-46a7-920b-c4c9194a5f30",
+          "frames": [
+            {
+              "id": "0b1a59ab-3ab8-44ed-a881-5de358505ade",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "580a3cfb-faff-433a-bc4a-15d007f2214e",
+          "frames": [
+            {
+              "id": "6662543d-5232-4649-8c74-5c84b01eb155",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "49e325b4-27a6-4ca0-824d-ba65247c30bd",
+          "frames": [
+            {
+              "id": "b3a68098-9fe2-4344-be0e-7e99525b2d4a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6d3df9b2-3364-402f-9e4f-d105c98aae14",
+          "frames": [
+            {
+              "id": "ac670004-4cb3-427e-8ffd-382e9e8d0842",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b87b8ad2-f6a3-496b-8c33-c4286edb0de3",
+          "frames": [
+            {
+              "id": "a1f314e4-5bc9-4ca7-a623-1c42523b8cce",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9c2168ff-390f-4836-8389-c5d0754db89f",
+          "frames": [
+            {
+              "id": "97558a68-e629-47b7-9a4b-04ae7c97857f",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15
+}

@@ -1,0 +1,101 @@
+{
+  "_resourceType": "sprite",
+  "id": "354a53d5-7ba6-4c7d-bc23-10dd0e00a0f6",
+  "name": "SAMPLE PACK - Pixel Gnome Fishing Pack/C - Misc/Worm Outline",
+  "symbol": "sprite_sample_pack_pixel_gn_10",
+  "numFrames": 1.125,
+  "filename": "SAMPLE PACK - Pixel Gnome Fishing Pack/C - Misc/Worm Outline.png",
+  "checksum": "1ba260a2e5c0f4d1210e4982dd0148269ed05355",
+  "width": 18,
+  "height": 18,
+  "states": [
+    {
+      "id": "92daea54-1cfc-4fa2-a3d5-57c680699461",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "fed859fa-82f1-49db-9454-198e02711b32",
+          "frames": [
+            {
+              "id": "aeadd6e6-73ff-4c58-b991-9de7a4863ae3",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "443dab02-13ae-4ce1-a585-958ce41036ae",
+          "frames": [
+            {
+              "id": "9204167e-4b6d-4be7-9a71-0a61734c2a40",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d545141a-5abe-4982-8682-1ae37a3dbcd7",
+          "frames": [
+            {
+              "id": "e99196d3-3853-42f2-a74e-7937c98be2ea",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "bbda9eee-3a23-44d6-87dd-5d2be66b7cb1",
+          "frames": [
+            {
+              "id": "21a9f802-3379-44a9-bbcb-bcb40d20c68d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "52056229-36a8-4049-9aba-ed65bd11bacf",
+          "frames": [
+            {
+              "id": "df0d63f5-4642-4402-b62b-f135c84cc694",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "47a26e4e-a26d-40ff-8dd1-e7515b08491a",
+          "frames": [
+            {
+              "id": "28d0ad4b-ed2d-4d0e-beb7-bc3f4a4fe4a0",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "19517cb4-aaec-4910-b2c5-46f247f87c2c",
+          "frames": [
+            {
+              "id": "d733ba08-7122-4642-9b18-fee7a5c38809",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "fd5bc487-dca5-440e-a4f9-c22528d09571",
+          "frames": [
+            {
+              "id": "eb339a27-1a1e-43e0-9882-b00be5cc207d",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15
+}
