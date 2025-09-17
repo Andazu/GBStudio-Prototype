@@ -45,6 +45,16 @@
       "id": "8",
       "name": "E2_prog",
       "symbol": "var_e2_prog"
+    },
+    {
+      "id": "9",
+      "name": "E3_prog",
+      "symbol": "var_e3_prog"
+    },
+    {
+      "id": "10",
+      "name": "E4_prog",
+      "symbol": "var_e4_prog"
     }
   ]
 }

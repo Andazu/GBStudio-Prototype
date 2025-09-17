@@ -4,9 +4,10 @@
   "name": "ocean",
   "symbol": "bg_ocean",
   "width": 33,
-  "height": 60,
+  "height": 38,
   "imageWidth": 270,
-  "imageHeight": 480,
+  "imageHeight": 304,
   "filename": "ocean.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

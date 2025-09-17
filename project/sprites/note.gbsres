@@ -3,13 +3,11 @@
   "id": "74e81705-bee6-4b98-a994-8eb0d57eab8d",
   "name": "note",
   "symbol": "bg_note",
+  "numFrames": 2,
+  "filename": "note.png",
+  "checksum": "51a905c4364bbc0efb97ec0f8e1e224fecc2824f",
   "width": 32,
   "height": 30,
-  "imageWidth": 1337,
-  "imageHeight": 1240,
-  "filename": "note.png",
-  "numFrames": 2,
-  "checksum": "51a905c4364bbc0efb97ec0f8e1e224fecc2824f",
   "states": [
     {
       "id": "635a3272-a71a-4289-97ae-dcb494f64c6e",
@@ -204,5 +202,7 @@
   "boundsY": 0,
   "boundsWidth": 32,
   "boundsHeight": 32,
-  "animSpeed": 15
+  "animSpeed": 15,
+  "imageWidth": 1337,
+  "imageHeight": 1240
 }
