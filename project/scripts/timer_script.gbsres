@@ -1,0 +1,132 @@
+{
+  "_resourceType": "script",
+  "id": "91f91829-5a99-4af1-9783-d0041d76e176",
+  "name": "Timer script",
+  "description": "alive, cd",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "alive",
+      "passByReference": true
+    },
+    "V1": {
+      "id": "V1",
+      "name": "cd",
+      "passByReference": true
+    },
+    "V2": {
+      "id": "V2",
+      "name": "dir",
+      "passByReference": true
+    },
+    "V3": {
+      "id": "V3",
+      "name": "frame",
+      "passByReference": true
+    },
+    "V4": {
+      "id": "V4",
+      "name": "prog",
+      "passByReference": true
+    },
+    "V5": {
+      "id": "V5",
+      "name": "direction",
+      "passByReference": true
+    }
+  },
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "EX"
+    }
+  },
+  "symbol": "script_1",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "V0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "gt",
+                "valueA": {
+                  "type": "variable",
+                  "value": "V1"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 0
+                }
+              },
+              "__collapseElse": false,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_DEC_VALUE",
+                  "args": {
+                    "variable": "5",
+                    "__collapse": true
+                  },
+                  "id": "8b9f0a5d-edab-4c19-a3bf-fa5c8f9c492c"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "3dc5f895-9ed7-4b3b-8cb2-af13c3784ab4",
+                    "$variable[V0]$": {
+                      "type": "variable",
+                      "value": "V3"
+                    },
+                    "$variable[V1]$": {
+                      "type": "variable",
+                      "value": "V2"
+                    },
+                    "$variable[V2]$": {
+                      "type": "variable",
+                      "value": "V4"
+                    },
+                    "$variable[V3]$": {
+                      "type": "variable",
+                      "value": "V5"
+                    },
+                    "$variable[V4]$": {
+                      "type": "variable",
+                      "value": "V0"
+                    },
+                    "$actor[0]$": "0",
+                    "__collapse": false
+                  },
+                  "id": "470b97cc-dbae-401a-8b10-bbb8fc309f77"
+                }
+              ]
+            },
+            "id": "8086196f-a737-4b98-8e96-2fb32572ea0e"
+          }
+        ],
+        "false": []
+      },
+      "id": "b8bfcb20-bb70-45e7-993a-e01566afc28b"
+    }
+  ]
+}

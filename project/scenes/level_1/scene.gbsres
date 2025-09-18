@@ -23,13 +23,16 @@
   "script": [
     {
       "command": "EVENT_RNG_SEED",
-      "args": {},
+      "args": {
+        "__collapse": true
+      },
       "id": "724d7b81-7822-4318-a31c-3b09e899fa30"
     },
     {
       "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
       "args": {
-        "actorId": "$self$"
+        "actorId": "$self$",
+        "__collapse": true
       },
       "id": "af453cf6-4149-49a6-ba7d-638fe676f491"
     },
@@ -41,7 +44,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -442,7 +445,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -835,10 +838,59 @@
         ]
       },
       "id": "0df72651-a604-46bf-8368-c0704fbfec0a"
+    },
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 1,
+        "duration": 1,
+        "frames": 30,
+        "__scriptTabs": "end",
+        "__collapse": true
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "91f91829-5a99-4af1-9783-d0041d76e176",
+              "__collapse": false,
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "1"
+              },
+              "$variable[V1]$": {
+                "type": "variable",
+                "value": "5"
+              },
+              "$variable[V2]$": {
+                "type": "number",
+                "value": 0
+              },
+              "$variable[V3]$": {
+                "type": "variable",
+                "value": "7"
+              },
+              "$variable[V4]$": {
+                "type": "variable",
+                "value": "6"
+              },
+              "$variable[V5]$": {
+                "type": "number",
+                "value": 1
+              },
+              "$actor[0]$": "79e42652-9057-4d2d-aac6-2c9190d32eda"
+            },
+            "id": "d5e96ee3-fe39-4577-bd4c-52c318a388b1"
+          }
+        ]
+      },
+      "id": "1bfe4332-6755-45c5-a4f2-f2ce828ea907"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "00168+"
+  "collisions": "00168+",
+  "autoFadeEventCollapse": false
 }

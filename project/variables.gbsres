@@ -55,6 +55,21 @@
       "id": "10",
       "name": "E4_prog",
       "symbol": "var_e4_prog"
+    },
+    {
+      "id": "da5969b7-0ae3-4ecc-887b-f8d08764ab64__L0",
+      "name": "Local 0",
+      "symbol": "var_local_1"
+    },
+    {
+      "id": "79e42652-9057-4d2d-aac6-2c9190d32eda__L0",
+      "name": "y",
+      "symbol": "var_y_0"
+    },
+    {
+      "id": "79e42652-9057-4d2d-aac6-2c9190d32eda__L1",
+      "name": "x",
+      "symbol": "var_x_0"
     }
   ]
 }

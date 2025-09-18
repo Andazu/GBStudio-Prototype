@@ -1,0 +1,93 @@
+{
+  "_resourceType": "script",
+  "id": "569b9b36-df65-4cd7-8197-a4a374d2e789",
+  "name": "Despawn enemy",
+  "description": "",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "alive",
+      "passByReference": true
+    },
+    "V1": {
+      "id": "V1",
+      "name": "prog",
+      "passByReference": true
+    },
+    "V2": {
+      "id": "V2",
+      "name": "frame",
+      "passByReference": true
+    },
+    "V3": {
+      "id": "V3",
+      "name": "cd",
+      "passByReference": true
+    }
+  },
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "EX"
+    }
+  },
+  "symbol": "script_3",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "V0",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "a7e6ded2-ef73-42fd-96e1-b2f45ae467ec"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "V1",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "e5202c1f-d9aa-4d39-a573-c846244f8ff1"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_FRAME",
+      "args": {
+        "actorId": "$self$",
+        "frame": {
+          "type": "variable",
+          "value": "V2"
+        },
+        "__collapse": true
+      },
+      "id": "fcbdce59-c4b5-4c00-8a9e-0d79653deb7f"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "V3",
+        "value": {
+          "type": "number",
+          "value": 3
+        },
+        "__collapse": false
+      },
+      "id": "3fff16da-1e2c-4e65-9849-393b5d1da27e"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "0",
+        "__collapse": true
+      },
+      "id": "90b6cbb4-d3ef-498e-a508-5bf01cf31833"
+    }
+  ]
+}
