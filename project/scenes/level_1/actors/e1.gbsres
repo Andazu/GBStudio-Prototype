@@ -18,6 +18,25 @@
   "script": [],
   "startScript": [
     {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "186df297-b997-44fd-a4d8-62ce4f027d5f"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "1",
+        "value": {
+          "type": "false"
+        },
+        "__collapse": true
+      },
+      "id": "abd8540e-50fc-4c3a-9873-86752049a9dc"
+    },
+    {
       "command": "EVENT_SET_VALUE",
       "args": {
         "variable": "6",
@@ -39,18 +58,80 @@
       "id": "f51d13cd-ca15-4d7a-b054-fa2f60df879c"
     },
     {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "5",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "8d82d254-1756-402e-bdb5-6f126b2ecb39"
+    },
+    {
       "command": "EVENT_ACTOR_SET_FRAME",
       "args": {
         "actorId": "$self$",
         "frame": {
           "type": "number",
           "value": 0
-        }
+        },
+        "__collapse": true
       },
       "id": "cab6859c-b6da-4f27-bae8-75325fab4ba9"
     }
   ],
-  "updateScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "6"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 3
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 2,
+              "frames": 30
+            },
+            "id": "0e282843-2683-4d5c-9c5e-2b42b34502a6"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "1",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "e297ea0d-0673-4e5a-a876-832d03a88969"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "432880f3-3c9c-4c39-983c-9b56f3697380"
+          }
+        ],
+        "false": []
+      },
+      "id": "06624afc-62cf-4d44-9596-d46dce4ac506"
+    }
+  ],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],

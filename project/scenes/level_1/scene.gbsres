@@ -5,7 +5,7 @@
   "type": "POINTNCLICK",
   "name": "Level 1",
   "symbol": "scene_2",
-  "x": 592,
+  "x": 608,
   "y": 296,
   "width": 20,
   "height": 18,
@@ -87,7 +87,7 @@
                             "type": "number",
                             "value": 1
                           },
-                          "__collapse": true
+                          "__collapse": false
                         },
                         "id": "665ae7cb-229e-46f3-8329-69b36d8769f2"
                       },
@@ -95,7 +95,7 @@
                         "command": "EVENT_INC_VALUE",
                         "args": {
                           "variable": "6",
-                          "__collapse": true
+                          "__collapse": false
                         },
                         "id": "f735478a-8f4f-4420-9aa9-697d33a39142"
                       }
@@ -840,5 +840,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": ""
+  "collisions": "00168+"
 }
