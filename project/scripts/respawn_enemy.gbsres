@@ -28,6 +28,11 @@
       "id": "V4",
       "name": "alive",
       "passByReference": true
+    },
+    "V5": {
+      "id": "V5",
+      "name": "height",
+      "passByReference": true
     }
   },
   "actors": {
@@ -104,37 +109,20 @@
           {
             "command": "EVENT_ACTOR_SET_POSITION",
             "args": {
-              "actorId": "$self$",
+              "actorId": "0",
               "x": {
                 "type": "number",
                 "value": 0
               },
               "y": {
-                "type": "number",
-                "value": 12
+                "type": "variable",
+                "value": "V5"
               }
             },
             "id": "40d3beb1-fec7-4513-add8-949a5dad095f"
           }
         ],
-        "false": [
-          {
-            "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
-            "args": {
-              "actorId": "0",
-              "x": {
-                "type": "number",
-                "value": 24
-              },
-              "y": {
-                "type": "number",
-                "value": 6
-              },
-              "__collapse": false
-            },
-            "id": "2b38a97b-3224-487c-8263-ab98b4b8eb92"
-          }
-        ]
+        "false": []
       },
       "id": "7547253e-1bf1-4241-be89-ac2f97bec17f"
     },

@@ -23,6 +23,11 @@
       "id": "V3",
       "name": "cd",
       "passByReference": true
+    },
+    "V4": {
+      "id": "V4",
+      "name": "maxCD",
+      "passByReference": true
     }
   },
   "actors": {
@@ -74,8 +79,8 @@
       "args": {
         "variable": "V3",
         "value": {
-          "type": "number",
-          "value": 3
+          "type": "variable",
+          "value": "V4"
         },
         "__collapse": false
       },

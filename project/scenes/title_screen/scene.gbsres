@@ -21,7 +21,13 @@
       "args": {
         "input": [
           "a",
-          "b"
+          "b",
+          "start",
+          "select",
+          "right",
+          "down",
+          "up",
+          "left"
         ]
       },
       "id": "e0aa906f-8c3d-43af-8a11-dbb2e19f6835"

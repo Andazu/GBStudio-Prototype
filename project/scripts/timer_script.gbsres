@@ -33,6 +33,11 @@
       "id": "V5",
       "name": "direction",
       "passByReference": true
+    },
+    "V6": {
+      "id": "V6",
+      "name": "height",
+      "passByReference": true
     }
   },
   "actors": {
@@ -83,8 +88,8 @@
                 {
                   "command": "EVENT_DEC_VALUE",
                   "args": {
-                    "variable": "5",
-                    "__collapse": true
+                    "variable": "V1",
+                    "__collapse": false
                   },
                   "id": "8b9f0a5d-edab-4c19-a3bf-fa5c8f9c492c"
                 }
@@ -115,7 +120,11 @@
                       "value": "V0"
                     },
                     "$actor[0]$": "0",
-                    "__collapse": false
+                    "__collapse": false,
+                    "$variable[V5]$": {
+                      "type": "variable",
+                      "value": "V6"
+                    }
                   },
                   "id": "470b97cc-dbae-401a-8b10-bbb8fc309f77"
                 }
