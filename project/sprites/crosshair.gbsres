@@ -5,7 +5,7 @@
   "symbol": "sprite_crosshair",
   "numFrames": 4.5625,
   "filename": "crosshair.png",
-  "checksum": "763cba21a560bb1b8aa257f6bbb973f765eb53d9",
+  "checksum": "e2fa208a8a800488fcdfa81d6ec2d7fd1b49169e",
   "width": 73,
   "height": 50,
   "states": [
@@ -22,11 +22,11 @@
               "id": "38856959-20ca-4daf-9be9-bfecff0c8747",
               "tiles": [
                 {
-                  "id": "e7f7914b-46c7-40f2-8886-18e832e3b147",
+                  "id": "6d4279e1-6358-4ad4-91cd-30d351ecf07a",
                   "x": 0,
                   "y": 0,
-                  "sliceX": 56,
-                  "sliceY": 16,
+                  "sliceX": 32,
+                  "sliceY": 32,
                   "palette": 0,
                   "flipX": false,
                   "flipY": false,
@@ -35,11 +35,11 @@
                   "priority": false
                 },
                 {
-                  "id": "14e2afeb-604d-4e56-9335-90830891162f",
+                  "id": "3b42591c-d5e9-4413-8a35-96415608ae73",
                   "x": 8,
                   "y": 0,
-                  "sliceX": 64,
-                  "sliceY": 16,
+                  "sliceX": 40,
+                  "sliceY": 32,
                   "palette": 0,
                   "flipX": false,
                   "flipY": false,
@@ -144,7 +144,7 @@
       ]
     }
   ],
-  "numTiles": 2,
+  "numTiles": 4,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,
